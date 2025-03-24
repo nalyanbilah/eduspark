@@ -1,0 +1,17 @@
+.page-transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-blue);
+    transform: scaleX(0);
+    transform-origin: right;
+    z-index: 9999;
+    transition: transform 0.5s ease-in-out;
+}
+
+.page-transition-overlay.active {
+    transform: scaleX(1);
+    transform-origin: left;
+}

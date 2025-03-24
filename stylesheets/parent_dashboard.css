@@ -1,0 +1,98 @@
+/* Most of the CSS will be similar to student_dashboard.css with some modifications */
+:root {
+    --primary-purple: #8e44ad;
+    --soft-purple: #f4ecf7;
+    --text-dark: #2c3e50;
+    --light-gray: #f4f6f8;
+    --white: #ffffff;
+}
+
+
+.child-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.child-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.child-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.course-item {
+    margin-bottom: 15px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.course-grade {
+    background-color: var(--soft-purple);
+    color: var(--primary-purple);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.activity-icon {
+    background-color: var(--primary-purple);
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.activity-status {
+    background-color: #2ecc71;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+}
+
+.messages .message-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.messages .message-item.unread {
+    background-color: var(--soft-purple);
+}
+
+.unread-count {
+    background-color: var(--primary-purple);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
